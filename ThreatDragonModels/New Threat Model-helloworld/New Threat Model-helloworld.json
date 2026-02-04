@@ -16,7 +16,591 @@
         "placeholder": "新STRIDE图描述",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.5.0",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 449.99999999999955,
+              "y": 230.00000000000034
+            },
+            "size": {
+              "width": 300,
+              "height": 290
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "48515049-a649-4bfc-8b28-1fe84d00b2d8",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "信任边界",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "adcdd3fd-5b4e-4ef8-84c1-b63a9b84e4f3",
+                "b98d92c5-b8f8-41fa-8324-0a756f49c9da"
+              ],
+              "containedElements": [
+                "6fb94b19-6d5c-4217-8adf-d80f0c3113f2",
+                "d94c8860-ff6c-4598-b81e-b80108fe210d"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 540,
+              "y": 70
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2cefe539-7b6e-46e7-ae8d-465a2c15a816"
+                },
+                {
+                  "group": "right",
+                  "id": "59a29778-a519-432d-85ab-14fcdfa55fb2"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e426f68c-60c5-4614-9dd9-cf65a3e205c9"
+                },
+                {
+                  "group": "left",
+                  "id": "0a4a9663-82f7-4e26-8b73-70acbfb365bb"
+                }
+              ]
+            },
+            "id": "c8c9999d-b73c-4ac2-9e9e-ab98366b514e",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "外部实体",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 543.75,
+              "y": 270
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2cefe539-7b6e-46e7-ae8d-465a2c15a816"
+                },
+                {
+                  "group": "right",
+                  "id": "59a29778-a519-432d-85ab-14fcdfa55fb2"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e426f68c-60c5-4614-9dd9-cf65a3e205c9"
+                },
+                {
+                  "group": "left",
+                  "id": "0a4a9663-82f7-4e26-8b73-70acbfb365bb"
+                }
+              ]
+            },
+            "id": "6fb94b19-6d5c-4217-8adf-d80f0c3113f2",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "外部实体",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": true,
+              "threats": [
+                {
+                  "id": "af04051b-4d50-4acf-9433-9328811533ca",
+                  "title": "新STRIDE威胁",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "欺骗",
+                  "description": "为这种威胁提供一个描述",
+                  "mitigation": "为这种威胁提供缓解或预防措施",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "bf41c5cc-1ab8-4eee-8274-8452212f58f0",
+                  "title": "STRIDE威胁3",
+                  "status": "Mitigated",
+                  "severity": "TBD",
+                  "type": "否认",
+                  "description": "为这种威胁提供一个描述",
+                  "mitigation": "为这种威胁提供缓解或预防措施",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 1
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "数据流",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "b44f3aca-2d6f-40f4-9cf2-fb9a7e1bc73f",
+                  "title": "新STRIDE威胁",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "篡改",
+                  "description": "为这种威胁提供一个描述 ",
+                  "mitigation": "为这种威胁提供缓解或预防措施 ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "1204fe4e-d77d-47aa-9a8e-86437e205087",
+                  "title": "新STRIDE威胁",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "信息泄露",
+                  "description": "为这种威胁提供一个描述",
+                  "mitigation": "为这种威胁提供缓解或预防措施",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "48515049-a649-4bfc-8b28-1fe84d00b2d8"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "数据流"
+            ],
+            "id": "adcdd3fd-5b4e-4ef8-84c1-b63a9b84e4f3",
+            "source": {
+              "x": 600,
+              "y": 130
+            },
+            "target": {
+              "cell": "6fb94b19-6d5c-4217-8adf-d80f0c3113f2",
+              "port": "2cefe539-7b6e-46e7-ae8d-465a2c15a816"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "数据流",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "bb60d703-8730-467b-96ac-dc0554af41a8",
+                  "title": "No Suggestions available",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "信息泄露",
+                  "description": "No suggestions available for this context. Add one manually please",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "48515049-a649-4bfc-8b28-1fe84d00b2d8"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "数据流"
+            ],
+            "id": "b98d92c5-b8f8-41fa-8324-0a756f49c9da",
+            "source": {
+              "x": 593,
+              "y": 330
+            },
+            "target": {
+              "cell": "d94c8860-ff6c-4598-b81e-b80108fe210d",
+              "port": "9d92d5c1-bac2-4b66-8465-432fa1638262"
+            }
+          },
+          {
+            "position": {
+              "x": 536.25,
+              "y": 420
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "9d92d5c1-bac2-4b66-8465-432fa1638262"
+                },
+                {
+                  "group": "right",
+                  "id": "d302e43d-3bf6-43a3-8308-9d981f30cca3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9c1b933a-9f1e-49cc-a9cd-dc9454ee0a05"
+                },
+                {
+                  "group": "left",
+                  "id": "9ccbf092-26be-4990-8224-a692adfc4d62"
+                }
+              ]
+            },
+            "id": "d94c8860-ff6c-4598-b81e-b80108fe210d",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Store",
+              "name": "数据存储",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 792,
+              "y": 270
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "d459b35e-077c-488f-9944-1910045641bd",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Text",
+              "name": "任意文本",
+              "hasOpenThreats": false
+            }
+          }
+        ]
       },
       {
         "id": 1,
@@ -30,6 +614,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "jeff",
-    "threatTop": 0
+    "threatTop": 5
   }
 }
